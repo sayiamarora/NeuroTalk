@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#E3F2FD">
+
+    <!-- Title: NeuroTalk -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NeuroTalk"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"/>
+
+    <!-- Voice Command Button -->
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/mic"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="Mic Icon"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnVoiceCommand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎙️ Voice Command"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Notes App Button -->
+    <Button
+        android:id="@+id/btnNotesApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📝 Notes App"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
