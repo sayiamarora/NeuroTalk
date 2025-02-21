@@ -17,6 +17,8 @@ NeuroTalk is an intelligent voice assistant designed for professionals to stream
 - **Android Intents** – Facilitates redirection to third-party applications.
 
 ## 🎥 Demo
+Demonstration Video : 📹 (https://drive.google.com/file/d/1eK10cH-goFTWeY0o0kLbkE1VXrKuiXiJ/view?usp=drive_link)
+
 ### 1. Real-Time Speech-to-Text
 - Tap 'Record' & speak.
 - Speech is converted to text in real-time.
